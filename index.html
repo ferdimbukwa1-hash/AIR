@@ -230,7 +230,7 @@
                     playBeep(1760, 0.8);
                     timer.innerText = "GO";
                     title.innerText = "HAPPY BIRTHDAY BELINDA!";
-                    status.innerText = "NOW PLAYING: CONGRATULATIONS";
+                    status.innerText = "NOW PLAYING: BIRTHDAY SONG";
                     clearInterval(countdownInterval);
                     triggerCelebration();
                 }
@@ -262,7 +262,8 @@
                                 <p>May this special day bring you endless joy, love, and laughter. 
                                 You are an incredible person who lights up every room you enter. 
                                 Keep shining bright and inspiring everyone around you!
-                                Happy Happy Birthday</p>
+                                         Happy Happy Birthday</p>
+                                          <audio id="audio-track" src="happy bd.mp3"></audio>
                             </div>
                             <div class="bg-wrapper"></div>`;
                     }, 1500);
@@ -327,3 +328,4 @@
 </body>
 
 </html>
+
